@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+#main_header {
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+#todolist_title {
+	/* Safari */
+	//-webkit-transform: rotate(-40deg);
+	/* Firefox */
+	//-moz-transform: rotate(-40deg);
+	/* IE */
+	//-ms-transform: rotate(-40deg);
+	/* Opera */
+	//-o-transform: rotate(-40deg);
+	/* Internet Explorer */
+	//	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	
+	transform: rotate(-40deg);
+}
+
+button {
+	background-color: blue;;
+	float: right;
+}
+
+.list_section {
+	/* block 요소를 inline 으로 만드는 속 성 */
+	display: inline-block;
+	margin-top: 30px;
+}
+
+#main_container {
+	/* block 요소에 한해서 가운데 정렬을 한다. */
+	 float: right;
+}
+
+#main_footer > div{
+	clear : right;
+	display: block;
+	text-align: center;
+}
+
+
+
